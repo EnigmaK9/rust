@@ -1,0 +1,11 @@
+[package]
+name = "nombre-del-paquete"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "nombre-del-binario"
+path = "src/main.rs"
+
